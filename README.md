@@ -15,3 +15,9 @@ NOW IN THE [CHROME STORE](https://chrome.google.com/webstore/detail/chrome-comma
 Don't worry about typing everything perfectly. CCP uses fuzzy searching so using only a few characters is often enough to find the command you are looking for.
 
 ie. Say you would like to clear your web cache. Open WebCommand then type "cache" and press enter.
+
+## Changes
+* [x] add "Goto: Bookmarks"
+* [x] add "Goto: Keyboard Shortcuts Setting"(chrome://extensions/configureCommands)
+* [x] flash the badge icon when first time installed
+
