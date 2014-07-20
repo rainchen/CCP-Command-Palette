@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "CCP Command Palette",
+  "name": "CCP Command Palette(DEV)",
   "short_name": "CCP",
   "version": "0.1",
 
@@ -24,6 +24,7 @@
   "permissions": [
     "tabs",
     "browsingData",
+    "management",
     "http://*/*",
     "https://*/*"
   ],
@@ -36,5 +37,10 @@
     },
     "default_title": "CCP",
     "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
   }
 }
