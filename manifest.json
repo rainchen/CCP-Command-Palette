@@ -24,6 +24,7 @@
   "permissions": [
     "tabs",
     "browsingData",
+    "management",
     "http://*/*",
     "https://*/*"
   ],
@@ -36,5 +37,10 @@
     },
     "default_title": "CCP",
     "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
   }
 }
