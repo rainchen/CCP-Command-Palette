@@ -47,7 +47,7 @@ function stopFlashBadge () {
 
 function installed () {
   // try to get noticed
-  flashBadge('NEW!');
+  // flashBadge('NEW!');
 
   // stop the flash after 5 seconds
   setTimeout(stopFlashBadge, 5000);
